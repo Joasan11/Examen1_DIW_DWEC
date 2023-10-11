@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoaquínSánchezMiravalles_Examen1</title>
+    <!-- Añadimos los estilos CSS al HTML -->
+    <link rel="stylesheet" href="styles/Examen.css">
+    <!-- Añadimos el icono a la página web -->
+    <link rel="icon" href="assets/icono.ico">
+</head>
+<body>
+    <h1>Calculadora de área, perímetro y diagonal del rectángulo</h1>
+    <label>Longitud:</label>
+    <input type="number" id="Longitud" placeholder="Ingrse la longitud"> <!-- Añadimos id "Largo" para poder coger su valor en el js -->
+    <br>
+    <br>
+    <label>Ancho:</label>
+    <input type="number" id="Ancho" placeholder="Ingrese el ancho"> <!-- Añadimos id "Ancho" para poder coger su valor en el js-->
+    <br>
+    <br>
+    <button id="Boton">Calcular</button> <!-- Cogemos la acción del boton a traves del id "Boton" -->
+    <br>
+    <br>
+    <div id="ResultadoA"></div> <!-- Mostramos el resultado del área del rectángulo / Mostramos el mensaje de introducir números -->
+    <div id="ResultadoP"></div> <!-- Mostramos el resultado del perímetro del rectángulo -->
+    <div id="ResultadoD"></div> <!-- Mostramos el resultado de la diagonal del rectángulo -->
+
+    <!-- Añadimos la funcionalidad del js al HTML -->
+    <script src="scripts/Examen.js"></script>
+</body>
+</html>

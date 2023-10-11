@@ -1,0 +1,49 @@
+/*Estilos generales del body*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/*Estilos del titulo (h1)*/
+h1 {
+    color: #333;
+    font-size: 60px;
+}
+
+/*Estilos para lo que este dentro del input*/
+.input-container {
+    margin: 10px;
+}
+
+/*Estilos para el mensaje que va delante del input*/
+label {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*Estilos del input*/
+input {
+    padding: 5px;
+}
+
+/*Estilos del boton*/
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Estilos para cuando el raton este encima del boton*/
+button:hover{
+    background-color: #0b60bc;
+}
+
+/*Estilos para el div (Los resultados mostrados)*/
+div{
+    margin-bottom: 25px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
