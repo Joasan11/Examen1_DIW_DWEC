@@ -19,12 +19,12 @@ h1 {
 /*Estilos para el mensaje que va delante del input*/
 label {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 /*Estilos del input*/
 input {
-    padding: 5px;
+    padding: 7px;
 }
 
 /*Estilos del boton*/
